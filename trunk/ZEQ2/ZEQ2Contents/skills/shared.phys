@@ -1,0 +1,146 @@
+//=====================================
+// Base Blast
+//=====================================
+public "baseAttack" {
+	Physics {
+		type = "Missile"
+		lifetime = 120000
+		drain = 1
+	}
+	Costs {
+		cooldownTime = 1000
+		chargeTime = 100
+		chargeReadyPct = 10
+	}
+	Detonation {
+		type = "Ki"
+		damage = 100 +100
+		radius = 100 +100
+		duration = 1000
+	}
+	Muzzle {
+		nrShots = 1
+	}
+	Trajectory {
+		type = "LineOfSight"
+	}
+}
+public "kiBlast" = "baseAttack" {
+	Physics {
+		speed = 7000
+		radius = 25 +25
+		swat = 1
+	}
+	Detonation {
+		impede = 3000
+		duration = 1250
+	}
+	Costs {
+		powerLevel = 10
+		cooldownTime = 1000
+	}
+}
+public "kiStorm" = "baseAttack"{
+	Physics {
+		speed = 7000
+		radius = 25
+		swat = 1
+	}
+	Costs {
+		powerLevel = 75
+		cooldownTime = 300
+		chargeReadyPct = 0
+		chargeTime = 0
+	}
+	Detonation {
+		impede = 1500
+		type = "Ki"
+		radius = 200 +200
+		duration = 800
+	}
+	Muzzle {
+		offsetWidth = 12
+		angleWidth = 8
+		flipInWidth = true
+	}
+	Trajectory {
+		type = "Arch"
+		range = 1000000
+	}
+}
+public "kiBall" = "baseAttack" {
+	Physics {
+		speed = 7000
+		radius = 50 +50
+	}
+	Costs {
+		powerLevel = 20
+	}
+	Detonation {
+		damage = 150 +150
+		radius = 200 +200
+		duration = 1500
+	}
+}
+public "kiBeam" = "kiBall" {
+	Physics {
+		type = "Beam"
+		speed = 5000
+	}
+	Costs {
+		powerLevel = 15
+	}
+	Detonation {
+		damage = 100 +100
+		radius = 200 +200
+		duration = 2000
+	}
+}
+public "disk" {
+	Physics {
+		type = "Missile"
+		speed = 7000
+		radius = 50
+		lifetime = 10000
+	}
+	Costs {
+		powerLevel = 20
+		cooldownTime = 1000
+		chargeTime = 100
+		chargeReadyPct = 50
+	}
+	Detonation {
+		type = "Slice"
+		damage = 10000
+		radius = 50
+	}
+	Muzzle {
+		nrShots = 1
+	}
+	Trajectory {
+		type = "LineOfSight"
+	}
+}
+public "invisibleBlast" {
+	Physics {
+		type = "Hitscan"
+		range = 1000
+	}
+	Costs {
+		powerLevel = 10
+		chargeTime = 20
+		cooldownTime = 1000
+		chargeReadyPct = 25
+	}
+	Detonation {
+		type = "Ki"
+		damage = 10
+		knockback = 2000
+	}
+	Muzzle {
+		nrShots = 1
+	}
+	Trajectory {
+		type = "LineOfSight"
+	}
+}
