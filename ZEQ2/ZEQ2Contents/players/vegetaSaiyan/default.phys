@@ -6,7 +6,7 @@ import "kiBeam" = "skills/shared.phys" "kiBeam"
 
 private "vegKiStorm" = "kiStorm" {
 	Costs {
-		cooldownTime = 300
+		cooldownTime = 270
 	}
 }
 
@@ -128,16 +128,17 @@ private "finalFlash" = "baseAttack" {
 
 private "bigBang" = "baseAttack" {
 	Physics {
-		speed = 7000
+		speed = 7500
 		radius = 20 +30
 	}
 	Costs {
-		powerLevel = 70
+		powerLevel = 60
 		chargeReadyPct = 35
 	}
 	Detonation {
-		damage = 300 +200
+		damage = 250 +200
 		radius = 2000 +1000
+		duration = 2000
 	}
 
 }

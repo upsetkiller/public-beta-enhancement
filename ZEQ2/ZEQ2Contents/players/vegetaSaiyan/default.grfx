@@ -13,6 +13,7 @@ private "vegKiStorm" = "kiStorm" {
 	}
 	Missile {
 		shader = "energyBallBlue"
+		light = ( 1 1 0 ) 2
 		size = 3
 	}
 	Trail {
@@ -125,7 +126,7 @@ private "gallitGun" = "baseAttack" {
 	}
 	Explosion {
 		skin = "effects/explosion/explosionPurple.skin"
-		size = 140
+		size = 116
 		light = ( 0.25 0.5 1 ) 50
 		duration = 4000
 		smokeParticles = "ExplosionSmokeLarge"
@@ -192,7 +193,7 @@ private "bigBang" = "baseAttack"  {
 		light = ( 0.25 0.5 1) [0 5]
 		loopFx = "skills/pulseLoop1.ogg"
 		timedFx = ( 2 "skills/bigBang/vegetaBigBangEnd3.ogg" 
-					24 "skills/energySlice/energySliceCharge.ogg")			
+					33 "skills/energySlice/energySliceCharge.ogg")			
 	}
 	Flash {
 		light = ( 0.25 0.5 1 ) 20
@@ -211,9 +212,9 @@ private "bigBang" = "baseAttack"  {
 	}
 	Explosion {
 		skin = "effects/explosion/explosionBlue.skin"
-		size = 96
+		size = 64
 		light = ( 0.25 0.5 1 ) 100
-		duration = 4000
+		duration = 2000
 		smokeParticles = "ExplosionSmokeLarge"
 	}
 	Hud {

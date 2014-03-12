@@ -94,7 +94,7 @@ private "gallitGun" = "baseAttack" {
 	}
 	Explosion {
 		skin = "effects/explosion/explosionPurple.skin"
-		size = 140
+		size = 116
 		light = ( 0.25 0.5 1 ) 50
 		duration = 4000
 		smokeParticles = "ExplosionSmokeLarge"
@@ -139,14 +139,14 @@ private "SuperFinalFlash" = "baseAttack" {
 	}
 	Explosion {
 		skin = "effects/explosion/explosionYellow.skin"
-		size = 100
+		size = 160
 		light = ( 1 1 0.5 ) 50
-		duration = 7000
+		duration = 4000
 		smokeParticles = "ExplosionSmokeLarge"
 	}
 	Trail {
 		shader = "beams/beamYellow"
-		size = 80
+		size = 100
 	}
 	Hud {
 		displayName = "Final Flash"
@@ -161,8 +161,8 @@ private "finalFlash" = "baseAttack" {
 		light = ( 1 1 0.5 ) [0 5]
 		loopFx = "skills/finalFlash/finalFlashLoop.ogg"
 		timedFx = (2 "players/vegetaSaiyan/taunt2.ogg" 
-					42 "skills/energySlice/energySliceCharge.ogg" 
-					48 "skills/energyBall/ballCharge2.ogg")
+					55 "skills/energySlice/energySliceCharge.ogg" 
+					50 "skills/energyBall/ballCharge2.ogg")
 		loopParticles = "AuraDebris"
 	}
 	Flash {
@@ -208,7 +208,7 @@ private "bigBang" = "baseAttack"  {
 		light = ( 0.25 0.5 1) [0 5]
 		loopFx = "skills/pulseLoop1.ogg"
 		timedFx = ( 2 "skills/bigBang/vegetaBigBangEnd3.ogg" 
-					24 "skills/energySlice/energySliceCharge.ogg")			
+					55 "skills/energySlice/energySliceCharge.ogg")			
 	}
 	Flash {
 		light = ( 0.25 0.5 1 ) 20
@@ -227,8 +227,8 @@ private "bigBang" = "baseAttack"  {
 	}
 	Explosion {
 		skin = "effects/explosion/explosionBlue.skin"
-		size = 96
-		light = ( 0.25 0.5 1 ) 100
+		size = 64
+		light = ( 0 0 1 ) 100
 		duration = 2000
 		smokeParticles = "ExplosionSmokeLarge"
 	}
