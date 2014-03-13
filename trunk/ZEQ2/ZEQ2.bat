@@ -1,0 +1,1 @@
+ZEQ2 +set fs_game ZEQ2Contents +set fs_basegame ZEQ2
