@@ -87,7 +87,7 @@ private "rapidDisk" = "disk"{
 		chargeTime = 0
 	}
 	Detonation {
-		damage = 950
+		damage = 600
 	}
 	Muzzle {
 		angleWidth = 8
