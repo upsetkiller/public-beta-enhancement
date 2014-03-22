@@ -31,6 +31,17 @@ skills/kamehamehaChargeRays
 	}
 }
 
+skills/gallitgunGlow
+{
+	cull disable
+	deformVertexes autosprite
+	{
+		animmap 30 skills/gallitGun/gallitGlow1.png skills/gallitGun/gallitGlow2.png skills/gallitGun/gallitGlow3.png skills/gallitGun/gallitGlow4.png
+		blendfunc Blend
+		rgbGen identityLighting
+	}
+}
+
 skills/kamehamehaGlow
 {
 	cull disable
