@@ -15,7 +15,7 @@ private "raditzBeam" = "baseAttack" {
 		chargeReadyPct = 20
 	}
 	Detonation {
-		damage = 175 +100
+		damage = 175 +120
 		radius = 2000 +1000
 		duration = 4000
 	}
