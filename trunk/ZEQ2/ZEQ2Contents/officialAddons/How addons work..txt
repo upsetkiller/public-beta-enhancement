@@ -1,0 +1,1 @@
+Simply extract the following addons into the ZEQ2 folder.
