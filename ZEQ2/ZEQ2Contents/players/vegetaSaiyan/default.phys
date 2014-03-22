@@ -6,7 +6,7 @@ import "kiBeam" = "skills/shared.phys" "kiBeam"
 
 private "vegKiStorm" = "kiStorm" {
 	Costs {
-		cooldownTime = 270
+		cooldownTime = 300
 	}
 }
 
