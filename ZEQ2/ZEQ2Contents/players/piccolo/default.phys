@@ -97,7 +97,7 @@ private "specialBeamCannon" = "baseAttack" {
 	}
 	Costs {
 		powerLevel = 50
-		chargeReadyPct = 50
+		chargeReadyPct = 75
 	}
 	Detonation {
 		type = "Pierce"
