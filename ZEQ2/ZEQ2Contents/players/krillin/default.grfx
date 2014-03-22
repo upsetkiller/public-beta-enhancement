@@ -81,6 +81,9 @@ private "kameHameHa" = "baseAttack" {
 }
 
 private "scatterBeamStorm" = "kiBeam"{
+	Charge { 
+		loopParticles = "SkillsKamehamehaRay"
+	}
 	Hud {
 		displayName = "Scattering Beam Storm"
 		icon = "skills/finalFlash/icon.png"
