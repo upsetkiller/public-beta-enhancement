@@ -101,7 +101,7 @@ vegetaSSJBody
 		rgbGen identityLighting
 	}
 	{
-		clampMap players/goku/celShadeSuperSaiyan.png
+		clampMap effects/shading/celShadeDark3ToneSkin.png
 		blendfunc filter
 		rgbGen lightingUniform
 		tcGen cel
@@ -133,7 +133,7 @@ vegetaSSJHead
 		rgbGen identityLighting
 	}
 	{
-		clampMap players/goku/celShadeSuperSaiyan.png
+		clampMap effects/shading/celShadeSkin.png
 		blendfunc filter
 		rgbGen lightingUniform
 		tcGen cel
@@ -148,9 +148,6 @@ vegetaSSJHeadEyes
 		rgbGen identityLighting
 	}
 }
-
-
-// Glow
 
 //-----------------------------------------------------------
 //Vegeta - Saiyan Saga - Damaged 10%
