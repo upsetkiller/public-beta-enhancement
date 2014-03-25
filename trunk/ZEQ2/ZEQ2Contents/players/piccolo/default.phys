@@ -59,7 +59,7 @@ private "superKiBall" = "baseAttack" {
 		radius = 50 +50
 	}
 	Costs {
-		powerLevel = 30
+		powerLevel = 125
 		chargeReadyPct = 20
 	}
 	Detonation {
@@ -76,7 +76,7 @@ private "masenko" = "baseAttack" {
 		radius = 50 +50
 	}
 	Costs {
-		powerLevel = 40
+		powerLevel = 115
 		chargeReadyPct = 20
 	}
 	Detonation {
