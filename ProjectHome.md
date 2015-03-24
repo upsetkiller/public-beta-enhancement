@@ -1,0 +1,1 @@
+This enhancement project will aim on adding newer content from the later zeq2lite incarnations but retain the old public beta 1 gameplay.
